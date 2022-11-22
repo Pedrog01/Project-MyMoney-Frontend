@@ -14,7 +14,7 @@ class Dashboard extends Component {
                     <Row>
                     <ValueBox cols='12 4' color='green' icon='bank' 
                     value='R$ 20' text='Total de Créditos' />
-                    <ValueBox cols='12 4' colors='red' icon='credit-card'
+                    <ValueBox cols='12 4' color='red' icon='credit-card'
                     value='R$ 10' text='Total de Débitos' />
                     <ValueBox cols='12 4' color='blue' icon='money'
                     value='R$ 0' text='Valor Consolidado' />
