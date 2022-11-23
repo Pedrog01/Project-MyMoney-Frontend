@@ -21,6 +21,7 @@ class BillingCycle extends Component {
     }
 
     render() {
+        console.log()
         return ( 
             <div>
                 <ContentHeader title='Ciclos de Pagamentos' small='Cadastro'/>
