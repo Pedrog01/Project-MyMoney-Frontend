@@ -5,8 +5,6 @@ export function selectTab(tabId){
     }
 }
 
-showTabs('tabList','tabCreate')
-
 export function showTabs(...tabIds){
     const tabsToShow = {}
     tabIds.forEach(e => tabsToShow[e]= true)
