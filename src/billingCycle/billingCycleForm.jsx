@@ -8,9 +8,9 @@ import labelAndInput from "../common/form/labelAndInput";
 
 class BillingCycleForm extends Component {
     render(){
-        const { handleSubmit } = this.props 
+        const { handleSubmit } = this.props
         return (
-            <form role='form' onSubmit={handleSubmit}>
+            <form role='form' onSubmit={handleSubmit} >
                 <div className='box-body'>
                     <Field name='name' component={labelAndInput}
                         label="nome" cols='12 4'  placeholder="Informe o nome"/>
