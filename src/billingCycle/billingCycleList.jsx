@@ -32,13 +32,13 @@ class BillingCycleList extends Component{
     render(){
         return (
             <div>
-                <table className='Table'>
+                <table className='table'>
                     <thead>
                         <tr>
-                            <th>Nome</th>
-                            <th>Mês</th>
-                            <th>Ano</th>
-                            <th>Ações</th>
+                           <th>Nome</th>
+                           <th>Mês</th>
+                           <th>Ano</th>
+                            <th className='table-actions' >Ações</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -48,7 +48,7 @@ class BillingCycleList extends Component{
             </div>
         )
     }
-}
+} 
 
 const mapStateToProps = state =>({list: state.billingCycle.list})
 const mapToDispatchToProps = dispatch => bindActionCreators({getList,showUpdate,showDelete}, dispatch)
